@@ -1,0 +1,131 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/16.1
+Eeight_bit_rca
+Z0 w1516132108
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/drewb/Documents/EELE 466/Lab 1
+Z5 8C:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca.vhd
+Z6 FC:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca.vhd
+l0
+L5
+VD<J^W]@515h93o6Lj2S1F3
+!s100 cQ1Z407_NO4fZLe1`zaD@0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1516132134
+!i10b 1
+Z9 !s108 1516132134.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca.vhd|
+Z11 !s107 C:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aeight_bit_rca_arch
+R1
+R2
+R3
+DEx4 work 13 eight_bit_rca 0 22 D<J^W]@515h93o6Lj2S1F3
+l24
+L12
+VmJ9;HUIbXX3RJQHoe`d0>3
+!s100 G<mO4RSFA1n9^dUIZ]71R2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eeight_bit_rca_tb
+Z14 w1516132130
+R2
+R3
+R4
+Z15 8C:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca_TB.vhd
+Z16 FC:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca_TB.vhd
+l0
+L4
+Vm9@1@<PIQ>a6@EfXPdlTz3
+!s100 YPWM=l<fFF;K?1[KB8gbd1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca_TB.vhd|
+Z18 !s107 C:/Users/drewb/Documents/EELE 466/Lab 1/8_bit_rca_TB.vhd|
+!i113 1
+R12
+R13
+Aeight_bit_rca_tb_arch
+R2
+R3
+Z19 DEx4 work 16 eight_bit_rca_tb 0 22 m9@1@<PIQ>a6@EfXPdlTz3
+l21
+L7
+VFZ=R[cI?F`:e;]^4i>6fU2
+!s100 g]>]5n`?70oCYNmVcLb:V1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Efull_adder
+Z20 w1516130469
+R1
+R2
+R3
+R4
+Z21 8C:\Users\drewb\Documents\EELE 466\Lab 1\full_adder.vhd
+Z22 FC:\Users\drewb\Documents\EELE 466\Lab 1\full_adder.vhd
+l0
+L5
+V1F9]@l043RRO?X:_[AOmL0
+!s100 J8=2g>oF_g4n0QAkVgakO2
+R7
+32
+Z23 !s110 1516132133
+!i10b 1
+Z24 !s108 1516132133.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\drewb\Documents\EELE 466\Lab 1\full_adder.vhd|
+Z26 !s107 C:\Users\drewb\Documents\EELE 466\Lab 1\full_adder.vhd|
+!i113 1
+R12
+R13
+Afull_adder_arch
+R1
+R2
+R3
+DEx4 work 10 full_adder 0 22 1F9]@l043RRO?X:_[AOmL0
+l13
+L12
+Vc9F^?D<cM^B7M>RPk3LPk1
+!s100 D?RPJ9iL2h4`;zl8z7cX`2
+R7
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
