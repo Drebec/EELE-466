@@ -14,6 +14,9 @@ fir_hdl = hdlcosim_eight_bit_rca;
 % simulation)
 Nclock_edges = 10;
 
+error = [];
+formatted_S = fi(0, 1, 8, 0);
+
 for clki=1:Nclock_edges
     %-----------------------------------------------------------------
     % Create our input vector at each clock edge, which must be a
@@ -73,7 +76,22 @@ for clki=1:Nclock_edges
     %-----------------------------------------------------------------
     %output_vector1 = step(fir_hdl,input_vectora,input_vectorb,input_sub);
     [S, Cout] = step(fir_hdl,input_vectora,input_vectorb,input_sub)
+    Sum = fi(S, 0, 8, 0);
+    formatted_S.bin = Sum.bin
     
+    if sub == 1
+        if formatted_S.data ~= (a-b)
+            error(clki) = 1;
+        else
+            error(clki) = 0;
+        end
+    else
+        if formatted_S.data ~= (a+b)
+            error(clki) = 1;
+        else
+            error(clki) = 0;
+        end
+    end
     %-----------------------------------------------------------------
     % Save the outputs (which are fixed-point objects)
     %-----------------------------------------------------------------
@@ -110,6 +128,8 @@ for clki=1:Nclock_edges-latency
     
     
 end
+
+error
 
 
 
