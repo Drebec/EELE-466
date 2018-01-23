@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/17.1
+Eeight_bit_cla_adder
+Z0 w1516724829
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2
+Z4 8C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_adder.vhd
+Z5 FC:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_adder.vhd
+l0
+L4
+VUKngblfLA4O8H1`]a7D4X3
+!s100 9Vaz7e^zjP@PdmX;g`_c00
+Z6 OV;C;10.5c;63
+32
+Z7 !s110 1516725263
+!i10b 1
+Z8 !s108 1516725263.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_adder.vhd|
+Z10 !s107 C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aeight_bit_cla_adder_arch
+R1
+R2
+DEx4 work 19 eight_bit_cla_adder 0 22 UKngblfLA4O8H1`]a7D4X3
+l23
+L11
+V5PlCDidFJl==Q[;6zVB0Z0
+!s100 0@i19_dk_cEMEkbY5::f`3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eeight_bit_rca_tb
+Z13 w1516724614
+R1
+R2
+R3
+Z14 8C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_TB.vhd
+Z15 FC:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_TB.vhd
+l0
+L4
+Vm9@1@<PIQ>a6@EfXPdlTz3
+!s100 YPWM=l<fFF;K?1[KB8gbd1
+R6
+32
+Z16 !s110 1516724618
+!i10b 1
+Z17 !s108 1516724618.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_TB.vhd|
+Z19 !s107 C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_TB.vhd|
+!i113 1
+R11
+R12
+Aeight_bit_rca_tb_arch
+R1
+R2
+DEx4 work 16 eight_bit_rca_tb 0 22 m9@1@<PIQ>a6@EfXPdlTz3
+l21
+L7
+Vi7z]Qjh2:TB`P1_^8C9FW3
+!s100 9MmW3QkQW3RT[ELYdzM830
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Efour_bit_cla_adder
+Z20 w1516725357
+R1
+R2
+R3
+Z21 8C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/4_bit_cla_adder.vhd
+Z22 FC:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/4_bit_cla_adder.vhd
+l0
+L4
+VIM_l@nFVhVn6ikn_6jJES3
+!s100 EbTOL2dPc=Sk[<YejJ28S1
+R6
+32
+Z23 !s110 1516725360
+!i10b 1
+Z24 !s108 1516725360.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/4_bit_cla_adder.vhd|
+Z26 !s107 C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/4_bit_cla_adder.vhd|
+!i113 1
+R11
+R12
+Afour_bit_cla_adder_arch
+R1
+R2
+Z27 DEx4 work 18 four_bit_cla_adder 0 22 IM_l@nFVhVn6ikn_6jJES3
+l15
+L11
+V7_7Z0AE9VQS`gcjALPZ<k2
+!s100 lcfSGS9PBj8nT4F2OdTMl0
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12

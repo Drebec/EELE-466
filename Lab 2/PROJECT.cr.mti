@@ -1,0 +1,17 @@
+{C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_bit_rca_TB
+-- Compiling architecture eight_bit_rca_TB_arch of eight_bit_rca_TB
+
+} {} {}} {C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/s15z586/Documents/Spring Senior/EELE466/Lab 2/8_bit_cla_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_bit_cla_adder
+-- Compiling architecture eight_bit_cla_adder_arch of eight_bit_cla_adder
+
+} {} {}}
