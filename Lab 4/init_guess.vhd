@@ -63,10 +63,12 @@ architecture init_guess_arch of init_guess is
   
   ALPHA_PROC : process (clk)
     begin
-      if(beta(0) = '0') then
-	alpha <= shift_right(beta, 1) - shift_left(beta, 1);
-      else
-	alpha <= shift_right((beta + "0000001"), 1) - shift_left(beta, 1);
+      if(rising_edge(clk)) then
+        if(beta(0) = '0') then
+	  alpha <= shift_right(beta, 1) - shift_left(beta, 1);
+        else
+	  alpha <= shift_right((beta + "0000001"), 1) - shift_left(beta, 1);
+        end if;
       end if;
   end process;
 
@@ -85,11 +87,13 @@ architecture init_guess_arch of init_guess is
 
   GUESS_PROC : process (clk)
     begin
-      if(beta(0) = '1') then
-	y0_mid2 <= y0_int * root2;
-	y0_out <= y0_mid2(53 downto 18);
-      else
-	y0_out <= y0_int;
+      if(rising_edge(clk)) then
+        if(beta(0) = '1') then
+	  y0_mid2 <= y0_int * root2;
+	  y0_out <= y0_mid2(53 downto 18);
+        else
+	  y0_out <= y0_int;
+        end if;
       end if;
   end process;
 
