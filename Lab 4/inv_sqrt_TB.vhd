@@ -1,24 +1,25 @@
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity init_guess_TB is
+entity inv_sqrt_TB is
 end entity;
 
-architecture init_guess_TB_arch of init_guess_TB is
+architecture inv_sqrt_TB_arch of inv_sqrt_TB is
 
-  component init_guess is
+  component inv_sqrt is
     port( clk	: in std_logic;
 	  x	: in std_logic_vector(35 downto 0);
-	  y0	: out std_logic_vector(35 downto 0));
+	  y 	: out std_logic_vector(35 downto 0));
   end component;
 
-  signal x_TB, y0_TB : std_logic_vector(35 downto 0);
+  signal x_TB, y_TB : std_logic_vector(35 downto 0);
   signal clk_TB      : std_logic;
 
   begin
 
-  DUT : init_guess port map (clk => clk_TB, x => x_TB, y0 => y0_TB);
+  DUT : inv_sqrt port map (clk => clk_TB, x => x_TB, y => y_TB);
 
   CLK_STIM : process
     begin

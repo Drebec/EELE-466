@@ -35,7 +35,7 @@ close all
 % Create lookup table for (x_beta)^(-3/2)
 %-----------------------------------------
 Nbits_address = 8;  % How many fraction bits will be used as the address?
-Nbits_output_fraction  = 7;  % The number of fractional bits in result.  The output word size will be Nbits_output + 1, since we need a bit for the 2^0 position.
+Nbits_output_fraction  = 17;  % The number of fractional bits in result.  The output word size will be Nbits_output + 1, since we need a bit for the 2^0 position.
 Nwords = 2^Nbits_address
 for i=0:(Nwords-1)  % Need to compute each memory entry (i.e. memory size)
     x_beta_table{i+1}.address = i;  % Memory Address
