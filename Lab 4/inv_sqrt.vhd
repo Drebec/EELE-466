@@ -34,14 +34,14 @@ architecture inv_sqrt_arch of inv_sqrt is
   begin
 
 -- x"000006A53"
-  y0 : init_guess port map (clk, x, y);
- --n0 : newton port map (clk, x, y0_int, y1_int); 
- --n1 : newton port map (clk, x, y1_int, y2_int); 
- --n2 : newton port map (clk, x, y2_int, y3_int); 
- --n3 : newton port map (clk, x, y3_int, y4_int); 
- --n4 : newton port map (clk, x, y4_int, y5_int); 
- --n5 : newton port map (clk, x, y5_int, y6_int); 
- --n6 : newton port map (clk, x, y6_int, y); 
+  y0 : init_guess port map (clk, x, y0_int);
+  n0 : newton port map (clk, x, y0_int, y1_int); 
+  n1 : newton port map (clk, x, y1_int, y2_int); 
+  n2 : newton port map (clk, x, y2_int, y3_int); 
+  n3 : newton port map (clk, x, y3_int, y); 
+  --n4 : newton port map (clk, x, y4_int, y5_int); 
+  --n5 : newton port map (clk, x, y5_int, y6_int); 
+  --n6 : newton port map (clk, x, y6_int, y); 
 	
 	
 

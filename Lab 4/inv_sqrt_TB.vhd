@@ -29,6 +29,6 @@ architecture inv_sqrt_TB_arch of inv_sqrt_TB is
 
   TEST : process
     begin
-      x_TB <= "000000000001011101001000000000000000"; wait;
+      x_TB <= "000000000000000000000010000000000000"; wait;
   end process;
 end architecture;

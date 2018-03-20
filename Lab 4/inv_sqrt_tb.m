@@ -25,13 +25,14 @@ Fm = fimath('RoundingMethod','Floor',...
 
 % Simulate for Nclock rising edges (this will be the length of the
 % simulation)
-Nclock_edges = 10;
+Nclock_edges = 30;
 Ninputs = 1000;
 %formatted_input = fi(0, 0, 36, 18);
 %formatted_output = fi(0, 0, 36, 18);
 %formatted_expected = fi(0, 0, 36, 18);
 
-one = fi(1, 0, 36, 18, Fm);
+small = fi(0, 0, 36, 18);
+small.bin = '000000000000000000000000000000000001';
 
 error = zeros(Ninputs);
 
@@ -52,8 +53,8 @@ for clki=1:Ninputs
     input = input_vector.data;
     int1 = sqrt(input_vector);
     int2 = divide(numerictype, 1, int1);
-    expected_nfi = 1/sqrt(a)
-    expected = int2
+    expected_nfi = 1/sqrt(a);
+    expected = int2;
     
     expected_vector = fi(expected, fixed_point_signed, fixed_word_width, fixed_point_fraction, Fm);
     %formatted_expected.bin = expected_vector.bin;
@@ -72,20 +73,23 @@ for clki=1:Ninputs
     %out = y.bin
     %expect = expected_vector.bin
     in = input_vector.bin;
-    input_vector.data
-    y_value = y.data
+    input_vector.data;
+    y_value = y.data;
     out = fi(y_value, 0, 36, 18, Fm);
     out.bin;
     out.data;
     expect = expected_vector.bin;
     expect_data = expected_vector.data;
+    expect_hex = expected_vector.hex;
     
-    error = error + (y.data - expected_vector.data)/(expected_vector.data);
-    error_nfi = ((y.data - expected_nfi)/(expected_nfi)) * 100
+    %error = error + (y.data - expected_vector.data)/(expected_vector.data);
+    %error_nfi = ((y.data - expected_nfi)/(expected_nfi)) * 100;
     
-    
+    if(abs(expected_vector - y) > small) 
+        
+    end
     
 end
-perror = error/10
+perror = error/10;
 %error
 end
