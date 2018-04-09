@@ -118,5 +118,5 @@ architecture init_guess_arch of init_guess is
 --      end if;
 --  end process;
 
-  y0 (6 downto 0) <= std_logic_vector(alpha);
+--  y0 (6 downto 0) <= std_logic_vector(alpha);
 end architecture;
